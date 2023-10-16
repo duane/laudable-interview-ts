@@ -1,4 +1,4 @@
-import {Highlight, Transcript} from "./types";
+import { Highlight, Transcript } from "./types";
 
 export const TRANSCRIPT: Transcript = {
   monologues: [
@@ -280,4 +280,22 @@ export const HIGHLIGHTS: Highlight[] = [
     endMonologue: 4,
     endWord: 4
   },
+  /*{
+    startMonologue: 6,
+    startWord: 3,
+    endMonologue: 10,
+    endWord: 2
+  },
+  {
+    startMonologue: 7,
+    startWord: 0,
+    endMonologue: 9,
+    endWord: 3
+  },
+  {
+    startMonologue: 7,
+    startWord: 0,
+    endMonologue: 10,
+    endWord: 0
+  }*/
 ];
